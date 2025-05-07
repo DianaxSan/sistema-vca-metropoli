@@ -1,0 +1,24 @@
+.sidebar-brand-icon i {
+    color: white; 
+    font-size: 24px; 
+    transform: rotate(0deg); 
+}
+
+
+
+.bg-gradient-violet {
+    background: linear-gradient(180deg, #8a2be2 10%, #4b0082 100%);
+    background-size: cover;
+}
+
+#product-image {
+    max-width: 100px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.card-body {
+  font-size: 14px; /* cambiar el tamaño de la letra del texto del card */
+}
+

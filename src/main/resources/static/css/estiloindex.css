@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #0056b3; /* Botón azul fuerte */
+}
+
+.btn-primary:hover {
+    background-color: #004085;
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Botón rojo */
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-success {
+    background-color: #28a745; /* Botón verde */
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.container-fluid {
+    margin-top: 2rem;
+}
+
+.welcome-card {
+    background-color: #8a2be2; /* Color de fondo púrpura */
+    color: #fff; /* Color blanco para el texto */
+    text-align: center;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.welcome-card h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.welcome-card p {
+    font-size: 1.25rem;
+}
+
+.card-deck {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card-inventario {
+    background-color: #e0f7fa; /* Fondo celeste claro */
+    color: #fff; /* Texto blanco */
+}
+
+.card-inventario .card-icon {
+    color: #fff; /* Íconos blancos */
+}
+
+.card-notificaciones {
+    background-color: #ff5722; /* Fondo naranja */
+    color: #fff; /* Texto blanco */
+}
+
+.card-notificaciones .card-icon {
+    color: #fff; /* Íconos blancos */
+}
+
+.card-reportes {
+    background-color: #ffeb3b; /* Fondo amarillo */
+    color: #333; /* Texto negro */
+}
+
+.card-reportes .card-icon {
+    color: #333; /* Íconos negros */
+}
