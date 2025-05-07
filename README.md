@@ -1,8 +1,7 @@
 
 # Sistema de Gestión Integral de Ventas, Compras y Almacén
 
-Este proyecto es una aplicación web desarrollada en **Spring Boot** orientada a la gestión de ventas, compras y operaciones de almacén. Está diseñada para ofrecer una solución completa en la administración de inventario y operaciones comerciales.
-
+Este proyecto es una aplicación web monolítica desarrollada en **Spring Boot con Thymeleaf** como motor de plantillas. Está orientada a la gestión de ventas, compras y operaciones de almacén, y está diseñada para ofrecer una solución completa en la administración de inventario y procesos comerciales.
 ## Características Principales
 
 - **Gestión de Categorías:** Crear, editar y eliminar categorías de productos.
